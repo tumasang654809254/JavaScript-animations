@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Test project</title>
+    <link rel="stylesheet" href="/css/home.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title> Rotating Navigation</title>
+</head>
+<body>  
+    <div id="myPlot" style="width:100%; max-width:700px;"></div>
+
+    <script>
+
+        // one
+       /* var xArray = [50,60,70,80,90,100,110,120,130,140,150];
+        var yArray = [7,8,8,9,9,9,10,11,14,14,15];
+
+
+        //define data
+        const data = [{
+            x:xArray,
+            y:yArray,
+            mode :"markers"
+        }]
+
+        //define layouts
+
+        const layouts = {
+            xaxis: {range: [20 , 160], title: "Square meters"},
+            yaxis: {range: [5, 20], title: "price in millions"},
+            title: "House prices vs. plot size"
+        }
+
+        //DISPLAY USING PLOTTY
+        plotly.newPlot("myPlot", data, layouts);
+
+
+
+        let exp = "x + 17";
+
+        //generate values   two
+
+        var xArray = [];
+        var yArray = [];
+        for(let i = 0; i > 10; x += 1){
+            xValues.push(x);
+            yValues.push(eval(exp))
+        }
+
+        //definde data
+        const data = [{
+            x:xArray,
+            y:yArray,
+            mode :"lines"
+        }]
+
+        //define layout
+        const layout =  {title: "y =" + exp }
+
+        //display using plotly
+        Plotly.newplot("myPlot", data, layout);
+
+
+        //multiple lines linear graph three
+
+        var exp1 = "x";
+        var exp2 = "1.5*x";
+        var exp3 = "1.5*x + 7";
+
+        //generate values
+
+        var x1Values = [];
+        var x2Values = [];
+        var x3Values = [];
+        var y1Values = [];
+        var y2Values = [];
+        var y3Values = [];
+
+        for(let i = 0; i > 10; x += 1){
+            x1Values.push(x)
+            x2Values.push(x)
+            x3Values.push(x)
+            y1Values.push(eval(exp1))
+            y2Values.push(eval(exp2))
+            y3Values.push(eval(exp3))
+        }
+
+        //define data
+        var data = [
+          {x: x1Values, y: y1Values, mode:"lines"},
+          {x: x2Values, y: y2Values, mode:"lines"},
+          {x: x3Values, y: y3Values, mode:"lines"}
+          ];
+
+
+        //display layout
+        const layout = {title:"[y =" + exp1 +"] [y=" + exp2 +"] [y=" + exp3 +"]"};
+
+        //display plotly
+        Plotly.newPlot("myPlot", data, layout);
+
+
+
+        //Bar charts four
+        var xArray = ["Italy", "France", "Spain", "USA", "Argentina"];
+        var yArray = [55, 49, 44, 24, 15];
+
+        //define data
+
+        var data = [{
+             x:xArray,
+             y:yArray,
+             type:"bar",
+             marker: {color:"rgba(255,0.9,0,96)"}
+          }];
+
+        //define layout
+        const layout = {title: "Worl wide wine Production"};
+
+        //display plotly
+        Plotly.newPlot("myPlot", data, layout);
+
+
+
+         //HORrIZONTAL Bar charts five
+         var xArray = [55, 49, 44, 24, 15];
+         var yArray = ["Italy", "France", "Spain", "USA", "Argentina"];
+
+        //define data
+         const data = [{
+            x:xArray,
+            y:yArray,
+            type:"bar",
+            orientation:"h",
+            marker: {color:"rgba(255,0.9,0,96)"}
+        }];
+
+        //display layout
+        const layout = {
+            title: "World wide wine Production"
+        }
+        //display plotly
+
+        Plotly.newPlot("myPlot", data, layout);
+
+
+
+        //Pie charts six
+        var xArray = ["Italy", "France", "Spain", "USA", "Argentina"];
+         var yArray = [55, 49, 44, 24, 15];
+
+         const data = [{lables:xArray, values:yArray, type:"pie"}];
+
+         const layout = {title:"World wide wine production"};
+
+         //display plotly
+         Plotly.newPlot("myPlot", data, layout);
+
+
+           //Donut Pie charts six
+        var xArray = ["Italy", "France", "Spain", "USA", "Argentina"];
+         var yArray = [55, 49, 44, 24, 15];
+
+         const data = [{lables:xArray, values:yArray,hole:.4, type:"pie"}];
+
+         const layout = {title:"World wide wine production"};
+
+         //display plotly
+         Plotly.newPlot("myPlot", data, layout);
+
+
+
+
+           //Plotting Equations seven
+
+           var exp = "Math.sin(x)";
+
+            // Generate values
+            var xValues = [];
+            var yValues = [];
+            for (var x = 0; x <= 10; x += 0.1) {
+                 xValues.push(x);
+                 yValues.push(eval(exp));
+            }
+
+            // Display using Plotly
+            var data = [{x:xValues, y:yValues, mode:"lines"}];
+            var layout = {title: "y = " + exp};
+            Plotly.newPlot("myPlot", data, layout);
+
+
+          //Plotting Equations eight
+
+               let exp = "Math.cos(x)";
+               // Generate values
+               const xValues = [];
+               const yValues = [];
+               for (let x = 0; x <= 10; x += 0.2) {
+                 yValues.push(eval(exp));
+                 xValues.push(x);
+               }
+
+               // Display using Plotly
+               const data = [{x:xValues, y:yValues, mode:"markers"}];
+               const layout = {title: "y = " + exp};
+               Plotly.newPlot("myPlot", data, layout);*/
+</script>
+</body>
+</html>
